@@ -2,7 +2,7 @@
 // pages/TaskDashboard.js
 import { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
-import TaskManagerABI from '../contracts/TaskManager.json';
+import TaskManagerABI from '../../contracts/TaskManager.json';
 
 const TaskDashboard = () => {
   const [tasks, setTasks] = useState([]);

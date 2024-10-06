@@ -1,7 +1,8 @@
+"use client"
 // pages/CreateTask.js
 import { useState } from 'react';
 import { ethers } from 'ethers';
-import TaskManagerABI from '../contracts/TaskManager.json';
+import TaskManagerABI from '../../contracts/TaskManager.json';
 
 const CreateTask = () => {
   const [title, setTitle] = useState('');
